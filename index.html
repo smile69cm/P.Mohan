@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohan | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body onload="hideLoader()">
+  <div id="loader-wrapper"><div class="loader"></div></div>
+
+  <div class="toggle-container">
+    <label class="switch">
+      <input type="checkbox" id="modeToggle" onclick="toggleDarkMode()">
+      <span class="slider round"></span>
+    </label>
+    <span>Dark Mode</span>
+  </div>
+
+  <header class="hero animated-bg" data-aos="fade-down">
+    <h1>Hi, I'm <span class="hover-name">Mohan</span></h1>
+    <p>Creative developer & editor — passionate about code and content.</p>
+  </header>
+
+  <section class="section" id="skills">
+    <h2 data-aos="fade-up">Skills</h2>
+    <ul class="skills-list">
+      <li data-aos="fade-right" data-aos-delay="100">C Language</li>
+      <li data-aos="fade-right" data-aos-delay="200">HTML</li>
+      <li data-aos="fade-right" data-aos-delay="300">Java</li>
+      <li data-aos="fade-right" data-aos-delay="400">SQL</li>
+      <li data-aos="fade-right" data-aos-delay="500">Video Editing</li>
+    </ul>
+  </section>
+
+  <section class="section" id="tech" data-aos="fade-up">
+    <h2>Languages & Tools</h2>
+    <div class="tech-icons">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+    </div>
+  
+</section>
+
+
+<section class="section about-section" id="about" data-aos="fade-up">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <p data-aos="fade-right" data-aos-delay="100">
+      I'm <strong>Mohan</strong>, a passionate creative currently in my 3rd year of Diploma training with a strong foundation in C Programming, Java, HTML, and SQL. I love building tools that are both useful and exciting — like my WordPress plugin <strong>Task2Unlock</strong> that unlocks content based on tasks.
+    </p>
+    <p data-aos="fade-left" data-aos-delay="200">
+      I started my journey with video editing and expanded into development, learning multiple languages and working on animated, interactive projects like this portfolio. I’m always excited to learn and create.
+    </p>
+    <p data-aos="fade-up" data-aos-delay="300">
+      <strong>Qualification:</strong><br>
+      ✅ Completed 10th Grade<br>
+      🧑‍💻 Currently in Diploma 3rd Year (Internship Training)‎ ‎ ‎ ‎ ‎ ‎ ‎ In First Syntax - IT & Software Solutions
+    </p>
+  </div>
+</section>
+
+<section class="section" id="projects" data-aos="fade-up">
+  <h2>Featured Projects</h2>
+  <div class="projects-container">
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>Task2Unlock Plugin</h3>
+      <p>A WordPress plugin that locks pages until users complete a task, like visiting a 3-step link. Only admin-generated links unlock the content. Perfect for gating downloads or premium content.</p>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+      <h3>Instagram Auto-DM & Comment Reply Bot</h3>
+      <p>I built a Telegram-based automation tool that monitors Instagram comments. When a user comments with a specific keyword, the bot instantly sends them a custom Direct Message (DM) and replies to their comment with “Check your DM ✅”. This is ideal for marketing, giveaways, or auto-support — creating a seamless way to engage users without manual effort.</p>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+      <h3>Telegram File Sharing Bot</h3>
+      <p>This bot lets me share movies, anime episodes, or any files through special links. When someone joins from a specific link, the bot automatically sends them the linked file. Only I (the admin) can upload files and generate access links — making it perfect for private content sharing.</p>
+    </div>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>No Projects</h3>
+      <p></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <div class="contact-icons">
+    <a href="mohanpentakotapm@gmail.com" title="Email"><img src="https://img.icons8.com/fluency/48/gmail.png" alt="email" /></a>
+    <a href="https://instagram.com/__moh_a_n__" target="_blank" title="Instagram"><img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram" /></a>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed(".typed-text", {
+    strings: ["a Developer", "a C Programmer", "a Video Editor", "a Creative Coder"],
+    typeSpeed: 60,
+    backSpeed: 40,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
